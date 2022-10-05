@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T00:03:13 EDT" name="Default suite" finished-at="2022-09-26T00:03:54 EDT" duration-ms="40410">
+    <groups>
+    </groups>
+    <test started-at="2022-09-26T00:03:13 EDT" name="Default test" finished-at="2022-09-26T00:03:54 EDT" duration-ms="40410">
+      <class name="testcases.SignUpApplication">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testcases.SignUpApplication@2034b64c]" started-at="2022-09-26T00:03:14 EDT" name="setupBrowser" finished-at="2022-09-26T00:03:21 EDT" duration-ms="7900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="userExist(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.SignUpApplication@2034b64c]" started-at="2022-09-26T00:03:24 EDT" name="userExist" data-provider="NewAccounts" finished-at="2022-09-26T00:03:29 EDT" duration-ms="5297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Omer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Omer1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[omer123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MLOps Courses]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Omer1@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[omer123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userExist -->
+        <test-method signature="userExist(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.SignUpApplication@2034b64c]" started-at="2022-09-26T00:03:29 EDT" name="userExist" data-provider="NewAccounts" finished-at="2022-09-26T00:03:34 EDT" duration-ms="5128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rawa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ruaa1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rawa56!]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ruaa1@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[rawa56!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userExist -->
+        <test-method signature="userExist(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.SignUpApplication@2034b64c]" started-at="2022-09-26T00:03:34 EDT" name="userExist" data-provider="NewAccounts" finished-at="2022-09-26T00:03:40 EDT" duration-ms="5413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dura]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dura1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[s548631]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS Development]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Dura1@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[s548631]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userExist -->
+        <test-method signature="userExist(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.SignUpApplication@2034b64c]" started-at="2022-09-26T00:03:40 EDT" name="userExist" data-provider="NewAccounts" finished-at="2022-09-26T00:03:44 EDT" duration-ms="4703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alex@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[erf45135]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DSA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Alex@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[erf45135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userExist -->
+        <test-method signature="userExist(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.SignUpApplication@2034b64c]" started-at="2022-09-26T00:03:44 EDT" name="userExist" data-provider="NewAccounts" finished-at="2022-09-26T00:03:49 EDT" duration-ms="4408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Besna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Besna@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sfdgf646]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AI]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Besna@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sfdgf646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userExist -->
+        <test-method signature="userExist(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.SignUpApplication@2034b64c]" started-at="2022-09-26T00:03:49 EDT" name="userExist" data-provider="NewAccounts" finished-at="2022-09-26T00:03:53 EDT" duration-ms="4294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bena@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sruyj564]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AI]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bena@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sruyj564]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userExist -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.SignUpApplication@2034b64c]" started-at="2022-09-26T00:03:53 EDT" name="closeBrowser" finished-at="2022-09-26T00:03:54 EDT" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.SignUpApplication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

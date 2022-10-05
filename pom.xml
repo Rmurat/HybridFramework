@@ -1,0 +1,122 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HybridFramework</groupId>
+  <artifactId>HybridFramework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  
+<!-- 
+	5.0.1 not working with 4.1.2
+	4.3.0 , 4.2.2  now working
+	
+	5.0.3 is compatible with 4.1.1
+	
+ -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.0.3</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.1.1</version>
+</dependency>
+<!--
+ Rest Assured dependency
+-->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.1.1</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- TestNG dependency
+7.6.1-7.6.0-7.5 -7.4.0-7.3.0 NOT WORKING
+
+-->
+<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>7.4.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports
+5.0.9-5.0.8-5.0.7- Not Working 5.0.2
+
+5.0.6 WORKED
+ -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi
+5.2.2 5.2.1- 5.2.0 Not working
+5.0.0 Worked -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.0.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+5.2.2- 5.2.1 -5.2.0 Not working
+ 5.0.0 Worked -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.0.0</version>
+</dependency>
+
+  
+  </dependencies>
+  
+  <build>
+
+		<plugins>
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M7</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>XMLFiles/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+
+
+	<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+	
+
+		</plugins>
+  
+  </build>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</project>
