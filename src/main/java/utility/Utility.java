@@ -88,9 +88,9 @@ public class Utility {
 			
 			String base64=ts.getScreenshotAs(OutputType.BASE64);
 			
-			System.out.println("Base 64 data is "+base64);
+			//System.out.println("Base 64 data is "+base64);
 			
-			return base64;
+			return  base64;
 			
 		}	
 		
