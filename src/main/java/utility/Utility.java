@@ -90,7 +90,9 @@ public class Utility {
 			
 			//System.out.println("Base 64 data is "+base64);
 			
-			return  base64;
+			
+			
+			return base64;
 			
 		}	
 		
