@@ -90,6 +90,12 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>XMLFiles/${XMLFiles}</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+					
+						<browser>${BrowserName}</browser>
+						<url>${AppToTest}</url>
+					
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 
